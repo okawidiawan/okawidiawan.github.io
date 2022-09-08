@@ -801,10 +801,6 @@ video {
   overflow-x: hidden;
 }
 
-.overflow-y-hidden {
-  overflow-y: hidden;
-}
-
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1105,6 +1101,7 @@ video {
 
 body {
   font-family: "Quicksand";
+  overflow-x: hidden;
 }
 
 .navbar-fixed {
