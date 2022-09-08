@@ -19,6 +19,7 @@ body {
 .hamburger-active > span:nth-child(1) {
   @apply origin-top-right -rotate-[47deg] -translate-y-1;
 }
+
 .hamburger-active > span:nth-child(2) {
   @apply origin-bottom-right rotate-[47deg] translate-y-1;
 }
