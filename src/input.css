@@ -4,7 +4,6 @@
 
 body {
   font-family: "Quicksand";
-  @apply overflow-x-hidden;
 }
 
 .navbar-fixed {
