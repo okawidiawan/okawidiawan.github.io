@@ -641,14 +641,6 @@ body {
   z-index: 9999;
 }
 
-.order-1 {
-  order: 1;
-}
-
-.order-2 {
-  order: 2;
-}
-
 .mx-8 {
   margin-left: 2rem;
   margin-right: 2rem;
@@ -1120,6 +1112,10 @@ body {
   padding-top: 2.5rem;
 }
 
+.pt-40 {
+  padding-top: 10rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1301,15 +1297,18 @@ body {
   position: fixed;
   z-index: 9999;
   border-radius: 9999px;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(242 242 242 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.8;
   --tw-backdrop-blur: blur(4px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
 }
 
 .dark .navbar-fixed {
-  background-color: rgb(62 65 84 / var(--tw-bg-opacity));
+  background-color: rgb(43 45 59 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.8;
 }
 
