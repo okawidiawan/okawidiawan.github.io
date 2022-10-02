@@ -605,12 +605,12 @@ body {
   position: relative;
 }
 
-.top-0 {
-  top: 0px;
+.top-3 {
+  top: 0.75rem;
 }
 
-.left-0 {
-  left: 0px;
+.left-1\/2 {
+  left: 50%;
 }
 
 .right-4 {
@@ -629,10 +629,6 @@ body {
   bottom: 2.5rem;
 }
 
-.left-1\/2 {
-  left: 50%;
-}
-
 .bottom-4 {
   bottom: 1rem;
 }
@@ -643,6 +639,14 @@ body {
 
 .z-\[9999\] {
   z-index: 9999;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
 }
 
 .mx-8 {
@@ -757,6 +761,10 @@ body {
   display: none;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-6 {
   height: 1.5rem;
 }
@@ -779,6 +787,14 @@ body {
 
 .h-5 {
   height: 1.25rem;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-full {
@@ -1017,9 +1033,9 @@ body {
   padding: 0.5rem;
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .px-4 {
@@ -1042,9 +1058,9 @@ body {
   padding-right: 0.25rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .px-8 {
@@ -1074,6 +1090,10 @@ body {
 
 .pl-8 {
   padding-left: 2rem;
+}
+
+.pt-52 {
+  padding-top: 13rem;
 }
 
 .pt-36 {
@@ -1280,8 +1300,9 @@ body {
 .navbar-fixed {
   position: fixed;
   z-index: 9999;
+  border-radius: 9999px;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  --tw-bg-opacity: 0.7;
+  --tw-bg-opacity: 0.8;
   --tw-backdrop-blur: blur(4px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
@@ -1289,7 +1310,14 @@ body {
 
 .dark .navbar-fixed {
   background-color: rgb(62 65 84 / var(--tw-bg-opacity));
-  --tw-bg-opacity: 0.5;
+  --tw-bg-opacity: 0.8;
+}
+
+@media (min-width: 1024px) {
+  .navbar-fixed {
+    width: 100%;
+    border-radius: 0px;
+  }
 }
 
 .navbar-fixed {
@@ -1302,6 +1330,7 @@ body {
   display: block;
   height: 3px;
   width: 30px;
+  border-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: rgb(62 65 84 / var(--tw-bg-opacity));
 }
@@ -1318,6 +1347,7 @@ body {
   display: block;
   height: 3px;
   width: 22px;
+  border-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: rgb(62 65 84 / var(--tw-bg-opacity));
 }
@@ -1682,6 +1712,10 @@ body {
     position: static;
   }
 
+  .lg\:top-0 {
+    top: 0px;
+  }
+
   .lg\:right-0 {
     right: 0px;
   }
@@ -1743,6 +1777,10 @@ body {
   .lg\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .lg\:pt-36 {
+    padding-top: 9rem;
   }
 
   .lg\:pt-10 {
